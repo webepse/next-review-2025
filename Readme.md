@@ -36,3 +36,12 @@ export default function HomePage() {
     )
 }
 ```
+
+
+## installer Tailwindcss
+
+fermer le serveur 
+```npm install --save-dev tailwindcss postcss autoprefixer```
+
+activer la création des fichiers de config avec l'option --postcss
+```npx tailwindcss init --postcss```
