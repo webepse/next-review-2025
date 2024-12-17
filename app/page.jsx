@@ -1,5 +1,10 @@
 export default function HomePage() {
     return (
-        <h1>My First Next.js Page</h1>
+        <>
+            <h1>My Games</h1>
+            <p>
+                Only the best games, reviewed for you.
+            </p>
+        </>
     )
 }
