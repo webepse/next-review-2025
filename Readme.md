@@ -8,3 +8,8 @@ l'option help permet de voir les commandes, ci on va utiliser la commande de dé
 ```npx next dev``` pour lancer le serveur sur localhost:3000
 
 Pour afficher du markdown dans VsCode : ```CTRL+SHIFT+V```
+
+## Exercice 1:
+
+créer une page about/ (AboutPage())
+créer une nouvelle page reviews/spider-man/ (SpiderManPage())
