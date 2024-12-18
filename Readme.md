@@ -45,3 +45,9 @@ fermer le serveur
 
 activer la création des fichiers de config avec l'option --postcss
 ```npx tailwindcss init --postcss```
+
+## installer HeadlessUI
+```npm install @headlessui/react@latest```
+
+## installer heroicons
+```npm install @heroicons/react```
