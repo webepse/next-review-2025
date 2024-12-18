@@ -51,3 +51,16 @@ activer la création des fichiers de config avec l'option --postcss
 
 ## installer heroicons
 ```npm install @heroicons/react```
+
+## Mardown
+installation du module pour faire un rendu sur le site en Markdown
+
+```npm install marked```
+
+#### Rappel: 
+Pour afficher une prévisualisation de Markdown dans VSCode, on peut utiliser les commandes suivantes: 
+```CTRL + MAJ + P``` et inscrire ```markdown``` pour choisir l'option ```Open preview to the side```
+
+ou 
+```CTRL + MAJ + V```
+
