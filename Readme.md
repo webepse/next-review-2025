@@ -64,3 +64,7 @@ Pour afficher une prévisualisation de Markdown dans VSCode, on peut utiliser le
 ou 
 ```CTRL + MAJ + V```
 
+# installer Typography de tailwindcss pour utiliser Prose
+
+```npm i --save-dev @tailwindcss/typography```
+

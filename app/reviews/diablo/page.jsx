@@ -10,7 +10,7 @@ export default async function DiabloPage() {
         <>
             <Heading>Diablo 4</Heading>
             <img src="/images/diablo.jpg" alt="Image de Diablo 4" className='mb-4 rounded w-screen mx-auto' />
-            <article dangerouslySetInnerHTML={{__html: html}} />
+            <article dangerouslySetInnerHTML={{__html: html}} className='prose w-full max-w-none'/>
         </>
     )
 }
