@@ -1,5 +1,12 @@
 import Heading from '@/components/Heading'
-import { getReview } from '@/lib/review';
+import { getReview, getSlugs } from '@/lib/review';
+
+// pour générer statiquement les pages au moment de la construction
+export async function generateStaticParams() {
+    const slugs = await getSlugs()
+    return slugs.map((slug) => ({slug}))
+}
+
 
 export default async function ReviewPage({params}) {
     const { slug } = await params;

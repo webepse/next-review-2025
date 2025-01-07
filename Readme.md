@@ -74,7 +74,7 @@ ou
 
 # Dynamic Route
 
-la méthod de récupéation des paramètres dynamiques (params) dans les routes asynchrone a changé. Vous ne pouvez plus accéder directement à params dans une fonction asyncrhone, comme vous l'avez fait avec params: {slug}. Vous devez attendre que parms soit récupéré avant de l'utiliser.
+la méthod de récupéation des paramètres dynamiques (params) dans les routes asynchrone a changé. Vous ne pouvez plus accéder directement à params dans une fonction asyncrhone, comme vous l'avez fait avec params: {slug}. Vous devez attendre que params soit récupéré avant de l'utiliser.
 
 avant : 
 
@@ -98,4 +98,10 @@ maintenant:
         </>
     )
 }```
+
+# GenerateStaticParams
+
+__generateStaticParams__ dans Next.js permet de générer des chemins dynamiques pour les pages lors de la construction, optimsant la génération staitque (SSG). Cela améliore les performances, le SEO, et permet la mise en cache des pages via CDN, tout en réduisant la charge serveur. Utile pour les routes dynamqieus, où les pages peuvent être pré-rendures statique et servies immédiatement. 
+
+
 
