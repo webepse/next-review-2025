@@ -68,3 +68,6 @@ ou
 
 ```npm i --save-dev @tailwindcss/typography```
 
+# pour ajouter des informations à l'intérieur d'un fichier markdown (md)
+
+```npm i --save gray-matter```
