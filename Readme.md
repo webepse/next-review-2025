@@ -71,3 +71,31 @@ ou
 # pour ajouter des informations à l'intérieur d'un fichier markdown (md)
 
 ```npm i --save gray-matter```
+
+# Dynamic Route
+
+la méthod de récupéation des paramètres dynamiques (params) dans les routes asynchrone a changé. Vous ne pouvez plus accéder directement à params dans une fonction asyncrhone, comme vous l'avez fait avec params: {slug}. Vous devez attendre que parms soit récupéré avant de l'utiliser.
+
+avant : 
+
+```
+export default function ReviewPage({params: {slug}}) {
+    return (
+        <>
+            <h1>{slug}</h1>
+        </>
+    )
+}
+```
+
+maintenant: 
+
+```export default async function ReviewPage({params}) {
+    const { slug } = await params;
+    return (
+        <>
+            <h1>{slug}</h1>
+        </>
+    )
+}```
+

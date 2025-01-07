@@ -1,9 +1,9 @@
 import Heading from '@/components/Heading'
-import { getReview } from '@/lib/review'
+import { getReview } from '@/lib/review';
 
-export default async function DiabloPage() {
-    const review = await getReview('diablo')
-
+export default async function ReviewPage({params}) {
+    const { slug } = await params;
+    const review = await getReview(slug)
     return (
         <>
             <Heading>{review.title}</Heading>
