@@ -3,6 +3,17 @@ import './globals.css'
 import { orbitron, exo2 } from "./fonts"
 import NavBar from '../components/NavBar'
 
+export const metadata = {
+    title: {
+        default: 'Game',
+        template: "%s | Game"
+    },
+    description: "Only the best games, reviewed for you",
+    icons: {
+        icon:"/icon.png"
+    }
+}
+
 export default function RootLayout({children})
 {
     return (
