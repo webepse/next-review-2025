@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "documentId": "tq63fnxoija07qmyf4bh51jm",
+      "slug": "diablo",
+      "title": "Diablo IV",
+      "subtitle": "Appropriez-vous sanctuaire",
+      "body": "La bataille entre __les cieux__ et __les enfers__ fait rage et le chaos menace de consumer __Sanctuaire__. Avec d'innombrables démons à massacrer, une multitude de capacités à maitriser, des donjons _cauchemardesques_ et des butins légendaires, ce vaste monde ouvert vous promet aventures et dévastation. Survivez et Triomphez des ténèbres.. ou sombrez dans l'oubli le plus profond.",
+      "createdAt": "2025-01-10T10:32:09.862Z",
+      "updatedAt": "2025-01-10T10:32:09.862Z",
+      "publishedAt": "2025-01-10T10:32:09.879Z",
+      "image": {
+        "id": 1,
+        "documentId": "zzcqt5xx95kikv2rez62v6e7",
+        "name": "diablo.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1280,
+        "height": 720,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_diablo.jpg",
+            "hash": "thumbnail_diablo_da0d33515e",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 138,
+            "size": 8.43,
+            "sizeInBytes": 8433,
+            "url": "/uploads/thumbnail_diablo_da0d33515e.jpg"
+          },
+          "medium": {
+            "name": "medium_diablo.jpg",
+            "hash": "medium_diablo_da0d33515e",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 422,
+            "size": 54.33,
+            "sizeInBytes": 54331,
+            "url": "/uploads/medium_diablo_da0d33515e.jpg"
+          },
+          "small": {
+            "name": "small_diablo.jpg",
+            "hash": "small_diablo_da0d33515e",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 281,
+            "size": 27.52,
+            "sizeInBytes": 27524,
+            "url": "/uploads/small_diablo_da0d33515e.jpg"
+          },
+          "large": {
+            "name": "large_diablo.jpg",
+            "hash": "large_diablo_da0d33515e",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 563,
+            "size": 88.39,
+            "sizeInBytes": 88386,
+            "url": "/uploads/large_diablo_da0d33515e.jpg"
+          }
+        },
+        "hash": "diablo_da0d33515e",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 131.38,
+        "url": "/uploads/diablo_da0d33515e.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-01-10T10:31:07.350Z",
+        "updatedAt": "2025-01-10T10:31:07.350Z",
+        "publishedAt": "2025-01-10T10:31:07.351Z"
+      }
+    },
+    {
+      "id": 5,
+      "documentId": "bxx31cupuwtj3z3ouqnkmvow",
+      "slug": "spiderman",
+      "title": "Spider man 2",
+      "subtitle": "Spider man le nouveau jeu!",
+      "body": "La bataille entre __les cieux__ et __les enfers__ fait rage et le chaos menace de consumer __Sanctuaire__. Avec d'innombrables démons à massacrer, une multitude de capacités à maitriser, des donjons _cauchemardesques_ et des butins légendaires, ce vaste monde ouvert vous promet aventures et dévastation. Survivez et Triomphez des ténèbres.. ou sombrez dans l'oubli le plus profond.",
+      "createdAt": "2025-01-10T10:34:05.543Z",
+      "updatedAt": "2025-01-14T08:16:46.323Z",
+      "publishedAt": "2025-01-14T08:16:46.339Z",
+      "image": {
+        "id": 2,
+        "documentId": "dlenb7vav6blw4hdvnaddd8m",
+        "name": "spiderman2.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1280,
+        "height": 720,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_spiderman2.jpg",
+            "hash": "thumbnail_spiderman2_27205584c8",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 138,
+            "size": 10.41,
+            "sizeInBytes": 10405,
+            "url": "/uploads/thumbnail_spiderman2_27205584c8.jpg"
+          },
+          "medium": {
+            "name": "medium_spiderman2.jpg",
+            "hash": "medium_spiderman2_27205584c8",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 422,
+            "size": 59.98,
+            "sizeInBytes": 59979,
+            "url": "/uploads/medium_spiderman2_27205584c8.jpg"
+          },
+          "small": {
+            "name": "small_spiderman2.jpg",
+            "hash": "small_spiderman2_27205584c8",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 281,
+            "size": 32.03,
+            "sizeInBytes": 32034,
+            "url": "/uploads/small_spiderman2_27205584c8.jpg"
+          },
+          "large": {
+            "name": "large_spiderman2.jpg",
+            "hash": "large_spiderman2_27205584c8",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 563,
+            "size": 93.93,
+            "sizeInBytes": 93925,
+            "url": "/uploads/large_spiderman2_27205584c8.jpg"
+          }
+        },
+        "hash": "spiderman2_27205584c8",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 138.47,
+        "url": "/uploads/spiderman2_27205584c8.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-01-14T08:16:42.955Z",
+        "updatedAt": "2025-01-14T08:16:42.955Z",
+        "publishedAt": "2025-01-14T08:16:42.957Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 2
+    }
+  }
+}
