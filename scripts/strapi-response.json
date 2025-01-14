@@ -7,32 +7,18 @@
       "title": "Spider man 2",
       "subtitle": "Spider man le nouveau jeu!",
       "publishedAt": "2025-01-14T08:16:46.339Z",
+      "body": "La bataille entre __les cieux__ et __les enfers__ fait rage et le chaos menace de consumer __Sanctuaire__. Avec d'innombrables démons à massacrer, une multitude de capacités à maitriser, des donjons _cauchemardesques_ et des butins légendaires, ce vaste monde ouvert vous promet aventures et dévastation. Survivez et Triomphez des ténèbres.. ou sombrez dans l'oubli le plus profond.",
       "image": {
         "id": 2,
         "documentId": "dlenb7vav6blw4hdvnaddd8m",
         "url": "/uploads/spiderman2_27205584c8.jpg"
-      }
-    },
-    {
-      "id": 2,
-      "documentId": "tq63fnxoija07qmyf4bh51jm",
-      "slug": "diablo",
-      "title": "Diablo IV",
-      "subtitle": "Appropriez-vous sanctuaire",
-      "publishedAt": "2025-01-10T10:32:09.879Z",
-      "image": {
-        "id": 1,
-        "documentId": "zzcqt5xx95kikv2rez62v6e7",
-        "url": "/uploads/diablo_da0d33515e.jpg"
       }
     }
   ],
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 6,
-      "pageCount": 1,
-      "total": 2
+      "pageSize": 1
     }
   }
 }
