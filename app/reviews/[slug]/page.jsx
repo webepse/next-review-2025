@@ -1,6 +1,7 @@
 import Heading from '@/components/Heading'
 import ShareButtons from '@/components/ShareButtons';
 import { getReview, getSlugs } from '@/lib/review';
+import Image from 'next/image';
 
 // pour générer statiquement les pages au moment de la construction
 export async function generateStaticParams() {
@@ -27,7 +28,7 @@ export default async function ReviewPage({params}) {
                 <p className='italic pb-2'>{review.date}</p>
                 <ShareButtons />
             </div>
-            <img src={review.image} alt={`Image de ${review.title}`} className='mb-4 rounded w-screen mx-auto' />
+            <Image src={review.image} alt={`Image de ${review.title}`} className='mb-4 rounded w-screen mx-auto' width="640" height="360" priority />
             <article dangerouslySetInnerHTML={{__html: review.body}} className='prose w-full max-w-none'/>
         </>
     )
