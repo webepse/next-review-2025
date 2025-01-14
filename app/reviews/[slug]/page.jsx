@@ -3,10 +3,10 @@ import ShareButtons from '@/components/ShareButtons';
 import { getReview, getSlugs } from '@/lib/review';
 
 // pour générer statiquement les pages au moment de la construction
-export async function generateStaticParams() {
-    const slugs = await getSlugs()
-    return slugs.map((slug) => ({slug}))
-}
+// export async function generateStaticParams() {
+//     const slugs = await getSlugs()
+//     return slugs.map((slug) => ({slug}))
+// }
 
 export async function generateMetadata(props) 
 {
