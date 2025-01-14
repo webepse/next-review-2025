@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[220],{4013:(e,s,_)=>{Promise.resolve().then(_.t.bind(_,5050,23))},5050:e=>{e.exports={about:"styles_about__fPCCm"}}},e=>{var s=s=>e(e.s=s);e.O(0,[97,441,517,358],()=>s(4013)),_N_E=e.O()}]);
