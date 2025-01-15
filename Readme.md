@@ -104,4 +104,81 @@ maintenant:
 __generateStaticParams__ dans Next.js permet de générer des chemins dynamiques pour les pages lors de la construction, optimsant la génération staitque (SSG). Cela améliore les performances, le SEO, et permet la mise en cache des pages via CDN, tout en réduisant la charge serveur. Utile pour les routes dynamqieus, où les pages peuvent être pré-rendures statique et servies immédiatement. 
 
 
+# Strapi
+https://strapi.io/
+Installer le next-review-cms qui est un strapi 
+```npx create-strapi-app@latest```
+## installation
+```
+PS F:\React\2025> npx create-strapi-app@latest
+Need to install the following packages:
+create-strapi-app@5.1.1
+Ok to proceed? (y) y
+ Strapi   v5.1.1 🚀 Let's create your new project
+? What is the name of your project? next-review-cms25
+? What is the name of your project? next-review-cms25
+We can't find any auth credentials in your Strapi config.
+Create a free account on Strapi Cloud and benefit from:
+- ✦ Blazing-fast ✦ deployment for your projects
+- ✦ Exclusive ✦ access to resources to make your project successful
+- An ✦ Awesome ✦ community and full enjoyment of Strapi's ecosystem
+Start your 14-day free trial now!
+? Please log in or sign up. (Use arrow keys)
+? Please log in or sign up. Login/Sign up
+[INFO] 🔌 Connecting to the Strapi Cloud API...
+ If a browser tab does not open automatically, please follow the next steps:
+ 1. Open this url in your device: https://auth.cloud.strapi.io/activate?user_code=QVFM-SWWK
+ 2. Enter the following code: QVFM-SWWK and confirm to login.
+✔ Authentication successful!
+ You are now logged into Strapi Cloud.
+ To access your dashboard, please copy and paste the following URL into your web browser:
+ https://cloud.strapi.io/projects
+? Do you want to use the default database (sqlite) ? (Y/n) Y
+? Do you want to use the default database (sqlite) ? Yes
+? Start with an example structure & data? (y/N) N
+? Start with an example structure & data? No
+? Start with Typescript? (Y/n) n
+? Start with Typescript? No
+? Install dependencies with npm? (Y/n) Y
+? Install dependencies with npm? Yes
+? Initialize a git repository? (Y/n) Y
+? Initialize a git repository? Yes
+```
+```
+npm run develop
+```
+ou 
+```
+npm run start
+```
+http://localhost:1337/admin/
+:: -> all IPV6 adresses mais peut être en ipv4 http://0.0.0.0:1337 
+mais on peut utiliser localhost sans problème. 
+### login de connexion
+```
+admin@example.com
+Admin123
+```
+```npm run develop``` si on veut créer des éléments comme des catégories d'information
+``` 
+=> Content-Type-Builder-Create 
+=> new collection type : Review
+sur la collectiontype tu peux faire Add another field et choisir le type de champs que tu veux. 
+slug : UID
+title : Text
+image : Media
+body : Rich text
+subtitle : Text
+=> save
+```
+pour l'api 
+```
+Settings - Users & permissions Plugin - Roles - Public - Review - Find et findOne 
+```
+adresse du json 
+http://localhost:1337/api/reviews
+
+
+
+
 
