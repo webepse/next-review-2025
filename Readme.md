@@ -200,6 +200,82 @@ adresse du json
 http://localhost:1337/api/reviews
 
 
+## Pour tester notre api
+créer un fichier scripts et un fichier mjs
+
+Un fichier avec l'extension .mjs est généralement un fichier JavaScript Module (Module JS). L'extension .mjs est souvent utilisée pour indiquer que le fichier contient un module JavaScript.
+
+Les modules JavaScript sont une fonctionnalité introduite dans ECMAScript 6 (ES6) pour organiser et réutiliser le code JavaScript de manière modulaire. Ils permettent de diviser le code en morceaux plus petits et autonomes, facilitant ainsi la gestion et la maintenance du code.
+
+La différence principale entre un fichier .mjs et un fichier .js réside dans la manière dont ils traitent les modules. Les fichiers .mjs sont automatiquement traités comme des modules, tandis que les fichiers .js peuvent être des scripts classiques ou des modules en fonction de l'utilisation de l'instruction import ou export.
+
+## voir le résultat
+fermer le serveur et faire ```node scripts/strapi-request.mjs```
+
+La méthode JSON.stringify() convertit une valeur JavaScript en chaîne JSON. Optionnellement, elle peut remplacer des valeurs ou spécifier les propriétés à inclure si un tableau de propriétés a été fourni.
+
+### Paramètre :
+
+valeur - la valeur à convertir 
+
+remplacement - modifie le processus de transformation (pour filter, selectionner des propriétés de l'objet)
+
+espace - pour insérer des blancs dans la chaine JSON pour la lisibilité 
+si l'argument est un nombre, il indiquera le nombre d'espaces à utiliser pour l'indentation (max 10)
+
+## QS pour les requêtes complexe avec Strapi
+https://docs.strapi.io/dev-docs/api/rest/populate-select
+
+https://github.com/ljharb/qs
+
+```npm install qs``` - pour gérer les requêtes complexe avec Strapi
+
+## Mise en place avec NextJs
+
+redemarrer le serveur ```npm run dev```
+
+on va modifier notre code pour lire l'api
+
+```
+ return data.map((items) => ({
+        slug: items.slug,
+        title: items.title,
+    }));
+```
+modification de strapi-request pour tester 
+
+```node scripts/strapi-request.mjs```
+
+puis redémarrer le serveur
+
+Error: Page "/reviews/[slug]/page" is missing exported function "generateStaticParams()", which is required with "output: export" config.
+To avoid that error, please just disable the export option in next.config.js
+
+module.exports = {
+  // output: 'export',
+};
+
+You can then re-enable it at the end of this section, when you get to the Static Build with CMS Data lecture.
+
+# ESLint
+
+```npm install --save-dev eslint eslint-config-next```
+
+ESLint est, comme son nom l’indique, un linter, c’est-à-dire un outil qui analyse statiquement du code et vérifie que celui-ci respecte un certain nombre de règles, celles-ci étant bien évidemment configurables de manière (très) fine.
+
+### L’intérêt est multiple :
+
+vous êtes assuré·e de la constance du coding style, qu’il s’agisse de bonnes pratiques ou de considérations plus esthétiques : autant de points plus ou moins triviaux dont vous n’aurez plus à vous soucier directement en cas d’erreur de syntaxe dans votre code, l’analyse statique de ce dernier échouera, et l’erreur en question vous sera remontée : c’est un garde-fou supplémentaire
+
+```npm run lint```
+
+pour tester et voir qu'il y a un problème avec les images
+
+## installer l'extension eslint dans vscode 
+
+l'optimisation d'image ne fonctionne qu'avec un serveur node donc dans next.config.js notre configuration pour une statique export doit être retirée. Ensuite il faut indique le path que nous autorisons 
+
+priority pour indiquer au navigateur de charger dès que possible. (lazy loading = paresseux)
 
 
 
